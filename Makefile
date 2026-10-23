@@ -95,4 +95,4 @@ download-apks:
 	test -n "$$gmscore_url"; \
 	wget -O apks/Phonesky_o.apk "$$phonesky_url"; \
 	wget -O apks/GmsCore_o.apk "$$gmscore_url"; \
-	wget -O apks/GsfProxy.apk https://github.com/microg/GsfProxy/releases/latest/download/GsfProxy.apk
+	wget -O apks/GsfProxy.apk https://github.com/microg/GsfProxy/releases/download/v0.1.0/GsfProxy.apk
